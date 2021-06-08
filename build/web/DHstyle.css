@@ -1,0 +1,613 @@
+a:link {
+	color: #3886E0;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #FF0000;
+}
+
+a:visited {
+	color: #3886E0;
+}
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+body
+{
+	font: 12px Tahoma, Arial, Helvetica, sans-serif;
+	color: black;
+        background-color: #f2f2f2;
+}
+
+#main
+{
+width:100%;
+}
+
+#header
+{
+background: url(images/footer.gif) repeat-x;
+width:1350px;
+height: 100px;
+}
+
+#logo
+{
+padding-left: 60px;
+text-align: left;
+padding-top: 20px;
+}
+
+#logo a {
+	text-decoration: none;
+	font-style: italic;
+	font-size: 25px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+#buttons
+{
+float: right;
+padding-top: 32px;
+height: 40px;
+padding-right: 30px;
+}
+
+#buttons li {
+        position: relative;
+	display: block;
+	float: left;
+	width: 120px;
+	height: 30px;
+	margin-left: 1px;
+	background: url(images/button.gif) repeat-x;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+#buttons a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#buttons li:hover {
+	width: 120px;
+        height: 30px;
+	background: #FFFFFF url(images/button_r.gif) repeat-x;
+        font-size: 15px;
+}
+
+#submenu
+{
+    list-style: none inside;
+}
+
+#submenu ul
+{
+     background: #f1f1f1;
+    position:absolute;
+    padding:0;
+    left:0;
+    display:none; /* hides sublists */
+}
+
+#submenu li:hover ul 
+{
+  background: #f1f1f1;   
+    margin-top:11px;
+    display:block;
+}
+
+#profile
+{
+    
+    height: 300px; 
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profilephoto
+{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+
+#profiledetail
+{
+    background-color: white;
+    height: 300px;
+    width: 1000px;
+    float: left;
+}
+
+#profiledetail table tr td
+{
+    padding: 10px 25px 10px 25px;
+}
+
+#profiletolet
+{
+    background-color: white;
+    width: 1000px;    
+}
+
+#profiletoletheader 
+{
+    width: 250px;    
+}
+
+#profiletoletheader h1 
+{
+    background: url(images/title.jpg) no-repeat;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    font-size: 18px;    
+}
+
+#profileonrent
+{
+    background-color: white;
+    width: 1000px;  
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#profileonrentheader 
+{
+    width: 250px;    
+}
+
+#profileonrentheader h1 
+{
+    background: url(images/title.jpg) no-repeat;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    font-size: 18px;    
+}
+
+#image
+{
+  height:400px;
+  padding-left:25px;
+}
+
+#bar 
+{
+margin-left: 60px;
+width:254px;
+height: 300px;
+float: left;
+border-left: 5px solid #ffffff;
+border-right: 5px solid #ffffff;
+}
+
+#bar h2 {
+	height: 40px;
+	background: url(images/title.jpg) no-repeat;
+	font-size: 18px;
+	color: #ffffff;
+        text-align:center;
+        padding-top:8px;
+}
+
+
+#bar a{  	
+	text-decoration:none;
+	color: #ffffff;	
+        }
+
+#bar a:hover{  	
+	text-decoration:none;
+        font-size: 20px;	
+        }
+
+#content
+{
+width: 1300px;
+height: 320px;
+}
+
+#tolet_content
+{
+    height: 1040px;
+}
+
+#sell_content
+{
+    height: 1040px;
+}
+
+#footer
+{
+	background: url(images/footer.gif) repeat-x;
+	height:100px;
+        padding-top: 10px;
+}
+
+#map 
+{
+width: 400px;
+height: 300px;
+background-color: grey;
+margin-left: 500px;
+margin-bottom: 10px;
+}
+
+#login
+{
+    width: 360px;
+    height: 300px;
+    background-color: #FFFFFF;
+    margin-top: 150px;
+    margin-left: 500px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#register
+{
+    width: 360px;
+    height: 800px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-left: 500px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#tolet_register
+{
+    width:600px; 
+    height:950px; 
+    margin-left: 390px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#sell_register
+{
+    width:600px; 
+    height:900px; 
+    margin-left: 390px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#toletview
+{
+    text-align: right;
+    width:700px; 
+    min-height: 100px; overflow: hidden; 
+    margin-left: 340px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#toletview input[type=text]
+{
+    background: #FFFFFF;
+}
+
+#toletview input[type=number]
+{
+    background: #FFFFFF;
+}
+
+#toletview textarea
+{
+    background: #FFFFFF;
+}
+
+#sellview
+{
+    text-align: right;
+    width:700px; 
+    min-height: 100px; overflow: hidden; 
+    margin-left: 340px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#sellview input[type=text]
+{
+    background: #FFFFFF;
+}
+
+#sellview input[type=number]
+{
+    background: #FFFFFF;
+}
+
+#sellview textarea
+{
+    background: #FFFFFF;
+}
+
+#profileview
+{
+    text-align: right;
+    width:500px; 
+    min-height: 100px; overflow: hidden; 
+    margin-left: 425px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#profileview input[type=text]
+{
+    background: #FFFFFF;
+}
+
+#profileview input[type=number]
+{
+    background: #FFFFFF;
+}
+
+#filter
+{
+    padding-top: 20px;
+    background-color: white;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+}
+
+input[type=text]
+{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input[type=password]
+{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input[type=number]
+{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+select
+{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input[type=file]
+{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+textarea
+{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input[type=submit]
+{
+    height:45px; 
+    width:232px; 
+    background-color: #3886E0;
+    color: white;
+    cursor: pointer;
+}
+
+input[type=submit]:hover
+{
+    height:45px; 
+    width:232px; 
+    background-color: #3870E0;
+    color: white;
+    cursor: pointer;
+}
+
+#message {
+    align-content: center;
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+#message a {
+  color: #3860E0;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#left
+{
+width: 580px;
+padding: 10px;
+}
+
+#left H1
+{
+color: #033B80;
+margin: 0;
+padding: 0;
+font-size: 24px;
+}
+#left H2
+{
+color: #033B80;
+margin: 0;
+padding: 0;
+font-size: 18px;
+padding-top: 10px;
+}
+
+#left a
+{
+ color: #3886E0;
+}
+
+#left a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+#left a:visited {
+	color: #3886E0;
+}
+
+#right
+{
+float: right;
+width: 254px;
+}
+
+#sidebar 
+{
+width: 254px;
+}
+
+#sidebar ul 
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#sidebar li 
+{
+	margin-bottom: 15px;
+}
+
+#sidebar li ul {
+	padding: 10px;
+	border-top: none;
+}
+
+#sidebar li li {
+	margin: 0;
+	padding: 3px 0;
+}
+
+
+#sidebar li h2 {
+	height: 36px;
+	margin: 0;
+	padding: 10px 0 0 20px;
+	background: url(images/title.jpg) no-repeat;
+	font-size: 18px;
+	color: #ffffff;
+}
+
+#sidebar a:link {
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+#sidebar a:visited {
+		text-decoration: none;
+}
+
+#sidebar li a {
+	padding-left: 10px;
+	background: url(images/img09.gif) no-repeat left center;
+}
+
+#metamorph2
+{
+	border-left: 1px solid #4E4E4E;
+	border-right: 1px solid #4E4E4E;
+}
+
+#footer a
+{
+color: #ffffff;
+font-size: 10px;
+text-decoration: none;
+}
+.padding
+{
+padding: 10px;
+color:#FF0000;
+font-weight: bold;
+}
+
